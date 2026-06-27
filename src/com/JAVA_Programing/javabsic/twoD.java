@@ -4,7 +4,7 @@ import java.util.Arrays;
 import java.util.Scanner;
 
 public class twoD {
-    static void seaerch(int target , int[][] array,int row,int coloumb){
+    static void search(int target , int[][] array, int row, int coloumb){
         for (int i = 0; i < row ; i++) {
             for(int j=0;j<coloumb;j++){
                 if(target==array[i][j]){
@@ -36,6 +36,6 @@ public class twoD {
         System.out.println(Arrays.deepToString(arr));
         System.out.println("enter a number");
         int target=sc.nextInt();
-        seaerch(target,arr,row,coloumb);
+        search(target,arr,row,coloumb);
     }
 }

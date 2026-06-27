@@ -61,12 +61,29 @@ public class linkwithoutcollection {
         secondlast.next=null;
 
     }
+    public void reverseiterative(){
+        if(head==null || head.next==null){
+            return;
+        }
+        node previous=head;
+        node current=head.next;
+        while(current.next!=null){
+            node next=current.next;
+            current.next=previous;
+
+            previous=current;
+            current=next;
+        }
+        head.next=null;
+        head=previous;
+    }
     public static void main(String[] args) {
         linkwithoutcollection list=new linkwithoutcollection();
         list.addfirst("Himanshu");
         list.addlast("Jadoun");
         list.addlast("DSA");
-        list.deletedirst();
+        list.print();
+        list.reverseiterative();
         list.print();
 
     }
