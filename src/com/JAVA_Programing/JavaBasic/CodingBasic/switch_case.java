@@ -3,7 +3,7 @@ package com.JAVA_Programing.JavaBasic.CodingBasic;
 import java.util.Scanner;
 
 public class switch_case {
-    public static void main(){
+    public static void main(String[] args){
         Scanner sc=new Scanner(System.in);
         System.out.println("enter 1 for greet in English, 2 for Hindi, 3 for Franch");
         int button=sc.nextInt();
