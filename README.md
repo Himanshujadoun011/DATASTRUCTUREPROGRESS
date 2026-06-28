@@ -1,2 +1,2 @@
-# DATASTRUCTUREPROGRESS
-improve problem solving skills
+Here, I record my DSA progress.
+Improving Problem Solving Skills.
