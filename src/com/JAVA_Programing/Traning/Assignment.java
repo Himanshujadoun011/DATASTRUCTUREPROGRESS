@@ -15,7 +15,7 @@ public class Assignment {
         for(int j=0;j<nums.length;j++){
             sum-=nums[j];
         }
-        System.out.println(sum);
+        System.out.println("summ of no. are"+sum);
 
     }
     static int factorial(int x){

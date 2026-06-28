@@ -4,7 +4,7 @@ import java.util.ArrayList;
 import java.util.Collections;
 
 public class arraylist {
-    static void main(String[] args) {
+    public static void main(String[] args) {
         ArrayList<Integer> list=new ArrayList<>();
         // to add element in arraylist
         list.add(25);

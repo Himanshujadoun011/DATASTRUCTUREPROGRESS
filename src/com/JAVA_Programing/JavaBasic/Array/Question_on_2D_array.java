@@ -3,7 +3,7 @@ package com.JAVA_Programing.JavaBasic.Array;
 import java.util.Scanner;
 
 public class Question_on_2D_array {
-    static void main(String[] args) {
+    public static void main(String[] args) {
         Scanner sc=new Scanner(System.in);
         System.out.println("enter the size of the array");
         int n=sc.nextInt();

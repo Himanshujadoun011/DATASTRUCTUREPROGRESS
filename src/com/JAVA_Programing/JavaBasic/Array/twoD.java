@@ -14,7 +14,7 @@ public class twoD {
             }
         }
     }
-    static void main(String[] args) {
+    public static void main(String[] args) {
         Scanner sc=new Scanner(System.in);
         System.out.println("enter row and coloums of the matics");
         int row=sc.nextInt();
