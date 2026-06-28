@@ -1,9 +1,6 @@
-package com.JAVA_Programing.javabsic;
+package com.JAVA_Programing.JavaBasic.Array;
 
-import java.lang.reflect.Array;
 import java.util.ArrayList;
-import java.util.Arrays;
-import java.util.Collection;
 import java.util.Collections;
 
 public class arraylist {

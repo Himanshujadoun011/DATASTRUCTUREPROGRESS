@@ -1,6 +1,4 @@
-package com.JAVA_Programing.javabsic;
-
-import org.w3c.dom.Node;
+package com.JAVA_Programing.JavaBasic.LinkedList;
 
 import java.util.*;
 

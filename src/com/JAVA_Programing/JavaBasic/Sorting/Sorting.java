@@ -1,9 +1,9 @@
-package com.JAVA_Programing.javabsic;
+package com.JAVA_Programing.JavaBasic.Sorting;
 
 import java.util.Arrays;
 import java.util.Scanner;
 
-public class shorting {
+public class Sorting {
     static int[] bubblesort(int[] arr){
         for(int i=0;i<arr.length-1;i++){
             for(int j=0;j<arr.length-i-1;j++){

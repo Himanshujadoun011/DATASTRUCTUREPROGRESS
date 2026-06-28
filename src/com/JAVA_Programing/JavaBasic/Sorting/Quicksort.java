@@ -1,9 +1,9 @@
-package com.JAVA_Programing.javabsic;
+package com.JAVA_Programing.JavaBasic.Sorting;
 
 import java.util.Arrays;
 
 //4,6,2,5,7,9,1,3
-public class quicksort {
+public class Quicksort {
     public static int partition(int[] arr ,int start,int end){
         int pivot=arr[end];
         int i=start-1;

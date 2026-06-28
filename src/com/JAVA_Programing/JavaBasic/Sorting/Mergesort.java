@@ -1,8 +1,8 @@
-package com.JAVA_Programing.javabsic;
+package com.JAVA_Programing.JavaBasic.Sorting;
 
 import java.util.Arrays;
 
-public class shorting2{
+public class Mergesort {
     public static void merge(int[] arr,int si,int mid,int ei){
         int[] m=new int[ei-si+1];
         int i=si;

@@ -1,4 +1,4 @@
-package com.JAVA_Programing.javabsic;
+package com.JAVA_Programing.JavaBasic.OOPsConcept;
 import java.util.Scanner;
 
 public class mathsclass {

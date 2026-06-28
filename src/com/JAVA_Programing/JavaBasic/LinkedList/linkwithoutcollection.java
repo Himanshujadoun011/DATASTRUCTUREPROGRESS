@@ -1,4 +1,4 @@
-package com.JAVA_Programing.javabsic;
+package com.JAVA_Programing.JavaBasic.LinkedList;
 
 public class linkwithoutcollection {
     node head;

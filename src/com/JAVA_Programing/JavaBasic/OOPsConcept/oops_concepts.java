@@ -1,4 +1,4 @@
-package com.JAVA_Programing.javabsic;
+package com.JAVA_Programing.JavaBasic.OOPsConcept;
 // class is a named  group of properties and function
 public class oops_concepts {
     //syntax of a class
