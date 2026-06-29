@@ -83,8 +83,8 @@ public class linkwithoutcollection {
         list.addlast("Jadoun");
         list.addlast("DSA");
         list.print();
-        list.reverseiterative();
-        list.print();
+        //list.reverseiterative();
+        //list.print();
 
     }
 
