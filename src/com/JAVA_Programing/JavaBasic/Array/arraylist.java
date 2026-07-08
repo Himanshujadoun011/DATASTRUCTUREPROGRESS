@@ -33,7 +33,7 @@ public class arraylist {
             System.out.print(list.get(i)+" ");
 
         }
-        System.out.println();
+        System.out.println("hello");
         // sort element of the list
         Collections.sort(list);
         System.out.println(list);
