@@ -50,6 +50,22 @@ public class treebasic {
         postorder(root.right);
         System.out.print(root.data+" ");
     }
+    public static int count(Node root){
+        if(root==null){
+            return 0;
+        }
+        int leftnode=count(root.left);
+        int rigthnoder=count(root.right);
+        return leftnode+rigthnoder+1;
+    }
+    public static int  sum(Node root){
+        if(root==null){
+            return 0;
+        }
+        int leftsum=sum(root.left);
+        int rightsum=sum(root.right);
+        return leftsum+rightsum+root.data;
+    }
 
 
     static void main(String[] args) {
@@ -60,6 +76,7 @@ public class treebasic {
         //preorder(root);
         //norder(root);
         postorder(root);
+        System.out.println("total="+sum(root));
 
     }
 }
