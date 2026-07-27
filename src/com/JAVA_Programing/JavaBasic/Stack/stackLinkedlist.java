@@ -1,4 +1,5 @@
 package com.JAVA_Programing.JavaBasic.Stack;
+//basic
 
 public class stackLinkedlist {
     static class Node{
