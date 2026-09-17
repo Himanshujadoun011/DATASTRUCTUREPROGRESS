@@ -5,7 +5,7 @@ import java.util.Set;
 import java.util.Map;
 
 public class HM {
-    static void main(String[] args) {
+    static void main(String[] xargs) {
         HashMap<String,Integer> hm=new HashMap<>();
         // add element
         hm.put("Bulandshahr",130);
