@@ -69,6 +69,11 @@ public class functions {
         int b=sc.nextInt();
         System.out.println(Math.pow(a,b));
         fabonacy(5);
+        int[] nums={1,2,3,4,5,6,7};
+        for(int i=0;i<nums.length;i++){
+            System.out.println(nums[i]);
+        }
+        System.out.println("thiss is my first edited program using the mechanical eyboard ");
 
 
     }
